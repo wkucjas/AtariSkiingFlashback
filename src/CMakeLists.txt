@@ -14,6 +14,9 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
         main.cpp
+        Player/Player.cpp
+        Player/IPlayer.h
+        Player/Player.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
