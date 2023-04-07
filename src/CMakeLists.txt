@@ -16,6 +16,7 @@ set(PROJECT_SOURCES
         main.cpp
         Player/Player.cpp
         Player/IPlayer.h
+        Player/IPlayer.cpp
         Player/Player.h
 )
 
